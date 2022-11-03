@@ -19,7 +19,7 @@ cytoolz==0.11.0
 datashape==0.5.2
 dnspython==2.2.1
 et-xmlfile==1.1.0
-Fiona==1.8.4
+# Fiona==1.8.4
 Flask-PyMongo==2.3.0
 fonttools==4.25.0
 future==0.18.2
