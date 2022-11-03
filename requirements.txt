@@ -102,6 +102,7 @@ google-resumable-media @ file:///tmp/build/80754af9/google-resumable-media_16243
 googleapis-common-protos @ file:///C:/ci/googleapis-common-protos-feedstock_1617957828677/work
 greenlet @ file:///C:/ci/greenlet_1628888262822/work
 grpcio @ file:///C:/ci/grpcio_1637590968244/work
+gunicorn==20.0.4
 h11==0.13.0
 h5py==2.10.0
 HeapDict @ file:///Users/ktietz/demo/mc3/conda-bld/heapdict_1630598515714/work
