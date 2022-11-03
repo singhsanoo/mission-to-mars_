@@ -75,8 +75,8 @@ sip==5.0.0
 splinter==0.18.1
 statsmodels==0.13.2
 # tables==3.6.1
-tabulate==0.8.9
-TBB==0.2
+# tabulate==0.8.9
+# TBB==0.2
 trio==0.21.0
 trio-websocket==0.9.2
 us==2.0.2
