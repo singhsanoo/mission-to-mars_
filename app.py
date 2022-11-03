@@ -1,7 +1,15 @@
 from flask import Flask, render_template, redirect
 import scrape_mars
 import pymongo
-from auth import username, password
+# from auth import username, password
+
+import os
+from dotenv import load_dotenv
+load_dotenv()
+
+username = os.getenv('USERNAME')
+password = os.getenv('PASSWORD')
+
 
 app = Flask(__name__)
 conn = f'mongodb+srv://{username}:{password}@cluster0.nmehijr.mongodb.net/test'
@@ -25,3 +33,4 @@ def scrape():
 
 if __name__ == "__main__":
     app.run(debug=True)
+
