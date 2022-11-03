@@ -11,7 +11,7 @@ citipy==0.0.5
 cligj==0.7.2
 # clyent==1.2.2
 comtypes==1.1.10
-conda==4.14.0
+# conda==4.14.0
 constantly==15.1.0
 cssselect==1.1.0
 cytoolz==0.11.0
