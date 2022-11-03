@@ -3,18 +3,18 @@ import scrape_mars
 import pymongo
 # from auth import username, password
 
-# import os
-# from dotenv import load_dotenv
-# load_dotenv()
+import os
+from dotenv import load_dotenv
+load_dotenv()
 
-# username = os.getenv('USERNAME')
-# password = os.getenv('PASSWORD')
+username = os.getenv('USERNAME')
+password = os.getenv('PASSWORD')
 
-# print(username)
+print(username)
 
 
 app = Flask(__name__)
-conn = 'mongodb+srv://sanoo:MFoG7Bi2TnVwPFle@cluster0.nmehijr.mongodb.net/test'
+conn = f'mongodb+srv://{username}:{password}@cluster0.nmehijr.mongodb.net/test'
 client = pymongo.MongoClient(conn)
 
 db = client.mars_db
