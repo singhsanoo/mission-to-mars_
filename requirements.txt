@@ -8,7 +8,7 @@ brotlipy==0.7.0
 bs4==0.0.1
 census==0.8.19
 citipy==0.0.5
-cligj==0.7.2
+# cligj==0.7.2
 clyent==1.2.2
 comtypes==1.1.10
 conda==4.14.0
