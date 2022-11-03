@@ -11,7 +11,7 @@ import pymongo
 # password = os.getenv('PASSWORD')
 
 
-# app = Flask(__name__)
+app = Flask(__name__)
 # conn = f'mongodb+srv://{username}:{password}@cluster0.nmehijr.mongodb.net/test'
 # client = pymongo.MongoClient(conn)
 
