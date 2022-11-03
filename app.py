@@ -7,14 +7,16 @@ import os
 from dotenv import load_dotenv
 load_dotenv()
 
-username = os.getenv('USERNAME')
-password = os.getenv('PASSWORD')
+# username = os.getenv('USERNAME')
+# password = os.getenv('PASSWORD')
 
-print(username)
+# print(username)
+# print(load_dotenv())
 
 
 app = Flask(__name__)
-conn = f'mongodb+srv://{username}:{password}@cluster0.nmehijr.mongodb.net/test'
+conn = os.environ.get('MongoDB_URI')
+# f'mongodb+srv://{username}:{password}@cluster0.nmehijr.mongodb.net/test'
 client = pymongo.MongoClient(conn)
 
 db = client.mars_db
